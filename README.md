@@ -15,27 +15,6 @@ However, we point out that self-reflection can easily fall into the **degenerati
 - **Rigidity and Resistance to Change**: Self-reflection often involves challenging one's beliefs, assumptions, and behaviors. If an individual is resistant to change or holds rigid beliefs, they may 😔 *struggle to engage in meaningful self-reflection* that leads to personal growth.
 - **Limited External Feedback**: Self-reflection is primarily an internal process, but external feedback can provide valuable perspectives and insights. Without seeking or considering external feedback, an individual may 😔 *miss important blind spots or alternative viewpoints that can enrich their self-reflection*.
 
-<div align="center">
-    <img width="45%" alt="MAD" src="imgs/image.png" />
-    <p><em>Figure 1: Comparison between debate and reflection.</em></p>
-</div>
-
-In this project, we have embarked on a journey to explore the potential of a debating interaction framework among LLMs. 
-With **MAD**, the nature of agents being in the state of 'tit for tat' determines that:
-
-1. The distorted thinking of one agent can be corrected by the other one 😃;
-2. The resistance to change of one agent will be complemented by the other one 😄;
-3. Either agent can provide external feedback for each other 😆.
-
-Obviously, **MAD** is less likely to have the **DoT** issue and can exploit more potential of LLMs. Experiments show that MAD brings significant and consistent improvements on Counterintuitive QA and Commonsense-MT tasks.
-
-## Framework
-
-<div align="center">
-    <img width="90%" alt="MAD" src="imgs/framework.png" />
-    <p><em>Figure 2: Framework of Multi-Agent Debate. The devil (<img src="imgs/devil.png" width="25" />) is the affirmative side while the angel (<img src="imgs/angel.png" width="25" />) is the negative side. The goal is for the angel to correct the devil's mistakes.</em></p>
-</div>
-
 ---
 
 ## 🔧 Reproducing the Experiments
