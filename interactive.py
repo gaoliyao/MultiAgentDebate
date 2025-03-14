@@ -24,7 +24,7 @@ import random
 from code.utils.agent import Agent
 
 
-openai_api_key = "Your-OpenAI-Api-Key"
+openai_api_key = "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"
 
 NAME_LIST=[
     "Affirmative side",
@@ -54,7 +54,7 @@ class Debate:
             num_players: int=3, 
             openai_api_key: str=None,
             config: dict=None,
-            max_round: int=3,
+            max_round: int=5,
             sleep_time: float=0
         ) -> None:
         """Create a debate
@@ -236,6 +236,6 @@ if __name__ == "__main__":
         config = json.load(open(f"{MAD_path}/code/utils/config4all.json", "r"))
         config['debate_topic'] = debate_topic
 
-        debate = Debate(num_players=3, openai_api_key=openai_api_key, config=config, temperature=0, sleep_time=0)
+        debate = Debate(num_players=5, openai_api_key=openai_api_key, config=config, temperature=0.1, sleep_time=0)
         debate.run()
 
